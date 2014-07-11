@@ -1,0 +1,19 @@
+import re
+import sys
+import time
+import math
+import urllib2
+import urlparse
+import optparse
+from cgi import escape
+from traceback import format_exc
+from Queue import Queue, Empty as QueueEmpty
+
+from BeautifulSoup import BeautifulSoup
+
+__version__ = '0.2'
+__copyright__ = 'Copyright (C) 2008-2011 by James Mills'
+__license__ = 'MIT'
+__author__ = 'James Mill'
+
+USAGE = %prog [options] 
